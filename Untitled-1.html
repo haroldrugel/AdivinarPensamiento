@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Pensamiento</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS externo -->
+</head>
+<body>
+
+    <h1>Calculamos tu Pensamiento</h1>
+
+    <p>Piensa en un número del 1 al 10 y escríbelo aquí:</p>
+    <input type="number" id="numeroInput" min="1" max="10">
+    <button id="calcularBtn">Calcular</button>
+
+    <div class="progress-container" id="progress-container" style="display: none;">
+        <div class="progress-bar" id="progress-bar">0%</div>
+    </div>
+
+    <div id="result-message"></div>
+
+    <script src="script.js"></script> <!-- Vinculación al archivo JavaScript -->
+</body>
+</html>
